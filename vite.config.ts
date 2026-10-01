@@ -4,5 +4,5 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/InstaFish/dist', // Must match your repo name exactly
+  base: '/InstaFish/', // Must match your repo name exactly
 })
